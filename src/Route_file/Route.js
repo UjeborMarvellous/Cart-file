@@ -10,7 +10,7 @@ const Routes = () => {
             <Switch>
          <Route exact path='/' component={App}/>
                 <Route exact path='/form' component={Form}/>
-    <Route exact path='*' component={<h1>This is not found component</h1>}/>
+    <Route  path='*' component={()=><h1>This is not found component</h1>}/>
             </Switch>
         </Router>
      );
