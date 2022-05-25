@@ -1,4 +1,3 @@
-import React, {useState} from "react";
 import list from '../data'
 import Card from "./Card";
 
